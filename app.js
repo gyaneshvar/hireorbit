@@ -120,16 +120,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     resumeZone.addEventListener('dragover', (e) => {
         e.preventDefault();
-        resumeZone.style.borderColor = 'var(--color-cyan)';
+        resumeZone.style.borderColor = 'var(--plum)';
     });
 
     resumeZone.addEventListener('dragleave', () => {
-        resumeZone.style.borderColor = 'var(--glass-border)';
+        resumeZone.style.borderColor = '';
     });
 
     resumeZone.addEventListener('drop', (e) => {
         e.preventDefault();
-        resumeZone.style.borderColor = 'var(--glass-border)';
+        resumeZone.style.borderColor = '';
         
         if (e.dataTransfer.files.length > 0) {
             handleFileSelection(e.dataTransfer.files[0]);

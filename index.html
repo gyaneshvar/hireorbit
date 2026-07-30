@@ -57,70 +57,96 @@
             <div class="container">
                 <div class="hero-grid">
                     <div class="hero-content">
-                        <div class="hero-tag">Sourcing • Screening • Scheduling</div>
+                        <div class="hero-tag">Sourcing&ensp;/&ensp;Screening&ensp;/&ensp;Scheduling</div>
                         <h1 class="hero-title">
-                            Connecting Stellar IT Talent with <span>Global Orbits</span>
+                            Connecting <em>stellar</em> IT&nbsp;talent with <span>global orbits.</span>
                         </h1>
                         <p class="hero-description">
                             We source, screen, and schedule top-tier software engineers and IT professionals for your team. Hire Orbit handles the end-to-end follow-up from initial reach out until final placement.
                         </p>
                         <div class="hero-actions">
                             <a href="#intake" class="btn btn-primary" id="hero-cta-employer">Hire Talent</a>
-                            <a href="#intake" class="btn btn-secondary" id="hero-cta-candidate">Submit Resume</a>
+                            <a href="#intake" class="btn btn-link" id="hero-cta-candidate">Submit your resume<span class="arrow">&nbsp;&rarr;</span></a>
                         </div>
                     </div>
-                    
-                    <div class="hero-visual">
-                        <!-- Floating skills badges -->
-                        <div class="skill-badge badge-1 float-anim" style="animation-delay: 0s;">React & Node.js</div>
-                        <div class="skill-badge badge-2 float-anim" style="animation-delay: 1.5s;">Cloud Architect</div>
-                        <div class="skill-badge badge-3 float-anim" style="animation-delay: 3s;">DevOps & AI</div>
-                        
-                        <div class="orbital-system">
-                            <div class="planet-glow"></div>
-                            <div class="center-planet">
-                                <img src="assets/logo-withbg.png" alt="Hire Orbit Core" class="center-logo">
-                            </div>
-                            <div class="satellite" title="Developer Sourcing"></div>
-                            <div class="satellite-2" title="Interview Scheduling"></div>
+
+                    <div class="hero-visual" aria-hidden="true">
+                        <div class="skill-badge badge-1"><i></i>React &amp; Node.js</div>
+                        <div class="skill-badge badge-2"><i></i>Cloud Architect</div>
+                        <div class="skill-badge badge-3"><i></i>DevOps &amp; AI</div>
+
+                        <div class="orbit-diagram">
+                            <svg viewBox="0 0 480 480" class="orbit-svg">
+                                <circle cx="240" cy="240" r="82"  class="orbit-ring"/>
+                                <circle cx="240" cy="240" r="140" class="orbit-ring"/>
+                                <circle cx="240" cy="240" r="198" class="orbit-ring ring-outer"/>
+                                <circle cx="240" cy="240" r="7" class="orbit-core"/>
+                                <circle cx="240" cy="240" r="16" class="orbit-core-ring"/>
+                                <g class="spin spin-1">
+                                    <circle cx="240" cy="158" r="6" class="orbit-dot dot-plum"/>
+                                </g>
+                                <g class="spin spin-2">
+                                    <circle cx="240" cy="100" r="8" class="orbit-dot dot-slate"/>
+                                    <circle cx="240" cy="380" r="4" class="orbit-dot dot-ink"/>
+                                </g>
+                                <g class="spin spin-3">
+                                    <circle cx="240" cy="42" r="5" class="orbit-dot dot-plum"/>
+                                </g>
+                            </svg>
+                            <div class="orbit-caption">fig. 01 &mdash; the sourcing orbit</div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="ticker" aria-hidden="true">
+                <div class="ticker-track">
+                    <span>React</span><span>Node.js</span><span>Cloud Architecture</span><span>DevOps</span><span>AI &amp; ML</span><span>AWS</span><span>Kubernetes</span><span>Senior Engineers</span><span>React</span><span>Node.js</span><span>Cloud Architecture</span><span>DevOps</span><span>AI &amp; ML</span><span>AWS</span><span>Kubernetes</span><span>Senior Engineers</span>
                 </div>
             </div>
         </section>
 
         <!-- Value Proposition / Features Section -->
-        <section class="features-section" id="features" style="content-visibility: auto; contain-intrinsic-block-size: auto 600px;">
+        <section class="features-section" id="features">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">Why Hire Orbit</span>
-                    <h2 class="section-title">We bridge the gap in tech hiring</h2>
+                    <span class="section-subtitle">No. 01 &mdash; Why Hire Orbit</span>
+                    <h2 class="section-title">We bridge the gap in tech&nbsp;hiring.</h2>
                     <p class="section-desc">Traditional job portals yield high noise. We filter out the static so you only speak to relevant, interviewed, and highly interested candidates.</p>
                 </div>
-                
+
                 <div class="features-grid">
                     <!-- Feature Card 1 -->
-                    <div class="feature-card glass-panel" id="feature-1">
-                        <div class="feature-icon-wrapper">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <div class="feature-card" id="feature-1">
+                        <div class="feature-top">
+                            <span class="feature-index">01</span>
+                            <div class="feature-icon-wrapper">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            </div>
                         </div>
                         <h3>Precision Sourcing</h3>
                         <p>We crawl LinkedIn, Naukri, Monster, and tech-specific communities using advanced Boolean models to pinpoint active and passive talent match-for-match.</p>
                     </div>
-                    
+
                     <!-- Feature Card 2 -->
-                    <div class="feature-card glass-panel" id="feature-2">
-                        <div class="feature-icon-wrapper">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    <div class="feature-card" id="feature-2">
+                        <div class="feature-top">
+                            <span class="feature-index">02</span>
+                            <div class="feature-icon-wrapper">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                            </div>
                         </div>
                         <h3>Smart Scheduling</h3>
                         <p>No back-and-forth calendar ping pong. We align candidate availabilities, reserve interviewer slots, and arrange coordinates for interview loops seamlessly.</p>
                     </div>
-                    
+
                     <!-- Feature Card 3 -->
-                    <div class="feature-card glass-panel" id="feature-3">
-                        <div class="feature-icon-wrapper">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <div class="feature-card" id="feature-3">
+                        <div class="feature-top">
+                            <span class="feature-index">03</span>
+                            <div class="feature-icon-wrapper">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
                         </div>
                         <h3>End-to-End Follow-Up</h3>
                         <p>We stick with the process. From sharing feedback and managing negotiations to handling onboarding hand-offs, we ensure the loop closes smoothly.</p>
@@ -130,56 +156,56 @@
         </section>
 
         <!-- Sourcing Pipeline / Process Section -->
-        <section class="timeline-section" id="process" style="content-visibility: auto; contain-intrinsic-block-size: auto 700px;">
+        <section class="timeline-section" id="process">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">The Sourcing Orbit</span>
-                    <h2 class="section-title">Our End-to-End Recruiting Flow</h2>
+                    <span class="section-subtitle">No. 02 &mdash; The Sourcing Orbit</span>
+                    <h2 class="section-title">Our end-to-end recruiting&nbsp;flow.</h2>
                     <p class="section-desc">From your initial requirements call to the candidate's first day of work, here is how we handle your hiring pipeline.</p>
                 </div>
-                
+
                 <div class="timeline">
                     <!-- Step 1 -->
                     <div class="timeline-item">
-                        <div class="timeline-dot">1</div>
+                        <div class="timeline-dot">01</div>
                         <div class="timeline-content">
                             <h3>Requirement Alignment</h3>
                             <p>We hold a quick briefing to map out your technical stack, seniority expectations, budget boundaries, and cultural vibe.</p>
                         </div>
                     </div>
-                    
+
                     <!-- Step 2 -->
                     <div class="timeline-item">
-                        <div class="timeline-dot">2</div>
+                        <div class="timeline-dot">02</div>
                         <div class="timeline-content">
                             <h3>Multichannel Sourcing</h3>
                             <p>We scan job boards and active directories to list candidates, utilizing outreach sequences that yield high response rates.</p>
                         </div>
                     </div>
-                    
+
                     <!-- Step 3 -->
                     <div class="timeline-item">
-                        <div class="timeline-dot">3</div>
+                        <div class="timeline-dot">03</div>
                         <div class="timeline-content">
                             <h3>First-Stage Screening</h3>
                             <p>We hop on screening calls to check technical capabilities, notice periods, expectations, and interest alignment.</p>
                         </div>
                     </div>
-                    
+
                     <!-- Step 4 -->
                     <div class="timeline-item">
-                        <div class="timeline-dot">4</div>
+                        <div class="timeline-dot">04</div>
                         <div class="timeline-content">
                             <h3>Interview Coordination</h3>
                             <p>We schedule screens directly into your calendar slots, brief candidates beforehand, and gather structured post-interview feedback.</p>
                         </div>
                     </div>
-                    
+
                     <!-- Step 5 -->
                     <div class="timeline-item">
-                        <div class="timeline-dot">5</div>
+                        <div class="timeline-dot">05</div>
                         <div class="timeline-content">
-                            <h3>Offer & Onboarding</h3>
+                            <h3>Offer &amp; Onboarding</h3>
                             <p>We facilitate negotiation conversations, keep candidates warm during notice periods, and follow up through their onboarding week.</p>
                         </div>
                     </div>
@@ -191,18 +217,17 @@
         <section class="intake-section" id="intake">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-subtitle">Get In Touch</span>
-                    <h2 class="section-title">Begin Your Orbit With Us</h2>
+                    <span class="section-subtitle">No. 03 &mdash; Get in Touch</span>
+                    <h2 class="section-title">Begin your orbit with&nbsp;us.</h2>
                     <p class="section-desc">Select your channel below to submit hiring requirements or upload your profile for IT role matches.</p>
                 </div>
-                
-                <div class="form-container glass-panel">
+
+                <div class="form-container">
                     <div class="form-toggle">
-                        <button type="button" class="form-toggle-btn active" data-tab="employer" id="tab-employer">Hire Talent (Employer)</button>
-                        <button type="button" class="form-toggle-btn" data-tab="candidate" id="tab-candidate">Apply for Roles (Candidate)</button>
-                        <div class="toggle-slider"></div>
+                        <button type="button" class="form-toggle-btn active" data-tab="employer" id="tab-employer">Hire Talent <small>(Employer)</small></button>
+                        <button type="button" class="form-toggle-btn" data-tab="candidate" id="tab-candidate">Apply for Roles <small>(Candidate)</small></button>
                     </div>
-                    
+
                     <!-- Employer Form -->
                     <form id="employer-form" class="intake-form active" novalidate>
                         <div class="form-group">
@@ -210,19 +235,19 @@
                             <input type="text" id="company-name" class="form-control" placeholder="Acme Corp" required>
                             <span class="form-feedback" id="company-name-feedback">Company name is required.</span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="employer-email">Work Email *</label>
                             <input type="email" id="employer-email" class="form-control" placeholder="hiring@company.com" required>
                             <span class="form-feedback" id="employer-email-feedback">A valid work email is required.</span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="hiring-role">Positions / Tech Stack *</label>
                             <input type="text" id="hiring-role" class="form-control" placeholder="e.g. Senior React Developer, DevOps Lead" required>
                             <span class="form-feedback" id="hiring-role-feedback">Please outline the skills or roles you need.</span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="hiring-experience">Preferred Experience Level</label>
                             <select id="hiring-experience" class="form-control">
@@ -233,18 +258,18 @@
                                 <option value="lead">Lead / Architect / Management</option>
                             </select>
                         </div>
-                        
+
                         <div class="form-group">
-                            <label for="hiring-details">Role Details & Requirements</label>
+                            <label for="hiring-details">Role Details &amp; Requirements</label>
                             <textarea id="hiring-details" class="form-control" placeholder="Provide any specifications about remote policies, salary budgets, or specific certifications required..."></textarea>
                         </div>
-                        
-                        <button type="submit" class="btn btn-primary" id="btn-submit-employer">
+
+                        <button type="submit" class="btn btn-primary btn-submit" id="btn-submit-employer">
                             Submit Sourcing Request
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
                         </button>
                     </form>
-                    
+
                     <!-- Candidate Form -->
                     <form id="candidate-form" class="intake-form" novalidate>
                         <div class="form-group">
@@ -252,43 +277,43 @@
                             <input type="text" id="candidate-name" class="form-control" placeholder="John Doe" required>
                             <span class="form-feedback" id="candidate-name-feedback">Your name is required.</span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="candidate-email">Email Address *</label>
                             <input type="email" id="candidate-email" class="form-control" placeholder="john.doe@email.com" required>
                             <span class="form-feedback" id="candidate-email-feedback">A valid email is required.</span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="candidate-skills">Primary Skillsets / Keywords *</label>
                             <input type="text" id="candidate-skills" class="form-control" placeholder="e.g. React, Node.js, AWS, Kubernetes" required>
                             <span class="form-feedback" id="candidate-skills-feedback">Please outline your core technologies.</span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="candidate-linkedin">LinkedIn / Portfolio URL</label>
                             <input type="url" id="candidate-linkedin" class="form-control" placeholder="https://linkedin.com/in/username">
                         </div>
-                        
+
                         <div class="form-group">
                             <label>Resume / CV File *</label>
                             <div class="file-upload-wrapper" id="resume-upload-zone">
-                                <svg class="file-upload-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                                <svg class="file-upload-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
                                 <div class="file-upload-text">Drag and drop your resume file or <span>browse</span></div>
                                 <input type="file" id="candidate-resume" accept=".pdf,.doc,.docx" required>
                                 <div class="file-name-preview" id="file-preview-text">No file chosen</div>
                             </div>
                             <span class="form-feedback" id="candidate-resume-feedback" style="display:none;">Please attach your resume file.</span>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="candidate-message">Quick Intro / Message</label>
                             <textarea id="candidate-message" class="form-control" placeholder="Briefly describe what roles, locations, or salary package matches you are seeking..."></textarea>
                         </div>
-                        
-                        <button type="submit" class="btn btn-primary" id="btn-submit-candidate">
+
+                        <button type="submit" class="btn btn-primary btn-submit" id="btn-submit-candidate">
                             Submit Resume
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
                         </button>
                     </form>
                 </div>
@@ -304,6 +329,7 @@
                     <img src="assets/logo.png" alt="Hire Orbit Logo">
                 </div>
                 <div class="footer-info">
+                    <span class="footer-kicker">Write to us</span>
                     <a href="mailto:info@hireorbit.co.in" class="footer-email" id="footer-contact-email">info@hireorbit.co.in</a>
                     <div class="footer-copy">&copy; 2026 Hire Orbit. All rights reserved. Sourcing IT Excellence.</div>
                 </div>
